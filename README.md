@@ -1,7 +1,21 @@
--새 폴더 시작할 때:
-	npx create-react-app .
-	node_modules 삭제 후: npm i 쓰면 재설치됨 (작업한거 보낼 때 module 삭제하고 보낼 것)
-  	npm start 입력해야 서버 연결됨 / ctrl + C : 연결 해제 (플러그인 설치할 때 할 것)
-					npm install react-router-dom
-					npm install sass
-					npm install gsap (package.json에서 확인)
+npx create-react-app .
+npm start
+
+npm install sass
+npm install gsap
+npm install react-router-dom
+npm i 
+(node_modules이랑 설치프로그램의 버젼도 확인해줌)
+npm start
+
+
+
+const App = () => {
+  return (
+    <BrowserRouter>
+        <Routes>
+            <Route />
+        </Routes>
+    </BrowserRouter>
+  )
+}
